@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/9b6f3a1221.js" crossorigin="anonymous"></script>
+    <title>Home - Niktam Air</title>
+</head>
+<body>
+    <div class="nav">
+        <h3>Niktam Air</h3>
+    </div>
+    <div class="searchTrips">
+        <h2>Recherche de trajet</h2>
+    <div class="search">
+        <div class="searchInputs">
+            <label for="provenance">Provenance:</label>
+            <input type="text" name="" id="provenance" placeholder="Entrez une provenance">
+            <div id="provenance-suggestions" class="suggestions"></div>
+    
+            <label for="destination">Destination:</label>
+            <input type="text" name="" id="destination" placeholder="Entrez une destination">
+            <div id="destination-suggestions" class="suggestions"></div>
+        </div>
+        <div class="searchBtn">
+            <button onclick="checkTrip()">Vérifier</button>
+        </div>
+    </div>
+    </div>
+    
+    <div id="results"></div>
+
+    <h2>Découvrez nos destinations phares</h2>
+    <div class="grid-container">
+        <div class="card-static">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1" alt="Destination 1">
+            <div class="card-content">
+                <h3>Paris <i class="fas fa-plane"></i> New York</h3>
+                <p>A partir de <strong>465 EUR*</strong></p>
+            </div>
+        </div>
+        <div class="card-static">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1" alt="Destination 2">
+            <div class="card-content">
+                <h3>London <i class="fas fa-plane"></i> New York</h3>
+                <p> A partir de <strong>475 EUR*</strong></p>
+            </div>
+        </div>
+        <div class="card-static">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1" alt="Destination 3">
+            <div class="card-content">
+                <h3>Paris <i class="fas fa-plane"></i> London</h3>
+                <p>A partir de <strong>75 EUR*</strong></p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Niktam Air - Tous droits réservés</p>
+        <p>Made with ❤️ by <a href="https://github.com/Brize-Glace">Romain</a></p>
+        <a href="https://romyle.fr" target="_blank"><i class="fas fa-globe"></i></a>
+        <a href="https://spotify.romyle.fr" target="_blank"><i class="fab fa-spotify"></i></a>
+        <a href="https://youtube.com/@romylemusic" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://github.com/Brize-Glace" target="_blank"><i class="fab fa-github"></i></a>
+        <a href=""></a>
+    </footer>
+</body>
+<script src="assets/js/app.js"></script>
+</html>
