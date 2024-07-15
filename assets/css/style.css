@@ -5,6 +5,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #d6dce1;
 }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07315d;
+    color: #fff;
+    padding: 7px 15px;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
 .nav h3{
     margin: 20px 0 20px 20px;
 }
@@ -45,7 +58,7 @@ button{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #07315d;
     color: #fff;
     cursor: pointer;
 }
@@ -81,14 +94,13 @@ input{
     text-align: center;
 }
 .card button {
-    background-color: #0056b3;
+    background-color: #07315d;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
 }
-
 
 .suggestions {
     border: 1px solid #ccc;
@@ -155,7 +167,7 @@ input{
 button {
     padding: 10px 20px;
     border: none;
-    background-color: #0056b3;
+    background-color: #07315d;
     color: white;
     border-radius: 5px;
     cursor: pointer;
