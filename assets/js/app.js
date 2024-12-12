@@ -114,7 +114,7 @@ function checkTrip() {
                         <p>${humanDate}</p>
                         <h3>Prix</h3>
                         <p>${trajet.price} €</p>
-                        <a href="https://pre-save.romyle.fr" target="_blank">
+                        <a href="" target="_blank">
                             <button>Réserver</button>
                         </a>`
 
